@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Nike</title>
 </head>
-
-<body> 
-    <header>
-            <div class="menu">
-                <span class="material-symbols-outlined">menu</span>
-            </div>
-            <div class="logo">
-                <a href="index.html">
-                    <h1>Nike</h1>
-                </a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Shoes</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
+<body>
+    <header id="home">
+        <div class="menu">
+            <span class="material-symbols-outlined">menu</span>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <h1>Nike</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main class="container">
         <div class="list">
             <!-- BLUE -->
@@ -37,63 +33,48 @@
                     <h1>Tuned Air</h1>
                     <h2>Blue</h2>
                 </div>
-
                 <div class="shoes-img">
-                    <img src="assets/img/blue.png">
+                    <img class="img-shoes" src="assets/img/blue.png">
                 </div>
-
                 <div class="scroll">
-                    <span class="material-symbols-outlined">
-                        arrow_cool_down
-                    </span>
+                    <span class="material-symbols-outlined">arrow_cool_down</span>
                     <h2>Scroll<br>Down</h2>
                 </div>
             </div>
-
             <!-- GREEN -->
             <div class="item" id="green">
                 <div class="title">
                     <h1>Tuned Air</h1>
                     <h2>Green</h2>
                 </div>
-
                 <div class="shoes-img">
-                    <img src="assets/img/green.png">
+                    <img class="img-shoes" src="assets/img/green.png">
                 </div>
-
                 <div class="scroll">
-                    <span class="material-symbols-outlined">
-                        arrow_cool_down
-                    </span>
+                    <span class="material-symbols-outlined">arrow_cool_down</span>
                     <h2>Scroll<br>Down</h2>
                 </div>
             </div>
-
             <!-- RED -->
             <div class="item" id="red">
                 <div class="title">
                     <h1>Tuned Air</h1>
                     <h2>Red</h2>
                 </div>
-
                 <div class="shoes-img">
-                    <img src="assets/img/red.png">
+                    <img class="img-shoes" src="assets/img/red.png">
                 </div>
-
                 <div class="scroll">
-                    <span class="material-symbols-outlined">
-                        arrow_cool_down
-                    </span>
+                    <span class="material-symbols-outlined">arrow_cool_down</span>
                     <h2>Scroll<br>Down</h2>
                 </div>
             </div>
         </div>
     </main>
-   <div class="arrows">
+    <div class="arrows">
         <button id="prev"><img src="assets/img/arrow.png"></button>
         <button id="next"><img src="assets/img/arrow.png"></button>
     </div>
-
     <div class="indicators">
         <div class="number">01</div>
         <ul>
@@ -102,6 +83,16 @@
             <li></li>
         </ul>
     </div>
+    <section class="about" id="about">
+        <div class="a-container">
+            <div class="a-content">
+                <h1>About</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veniam porro consequatur illo quasi incidunt reprehenderit inventore vero voluptates dicta, in ipsam harum! Nesciunt et fugiat ullam aspernatur distinctio veniam.</p>
+
+                <button>Know More</button>
+            </div>
+        </div>
+    </section>
     <script src="assets/scripts/script.js" defer></script>
 </body>
 </html>
